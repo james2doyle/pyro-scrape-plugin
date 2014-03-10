@@ -34,7 +34,7 @@ class Plugin_Scrape extends Plugin {
         'description' => array(// a single sentence to explain the purpose of this method
           'en' => 'scrape a webpage for specific selectors.'
           ),
-        'single' => true,// will it work as a single tag?
+        'single' => false,// will it work as a single tag?
         'double' => true,// how about as a double tag?
         'variables' => '',// list all variables available inside the double tag. Separate them|like|this
         'attributes' => array(
